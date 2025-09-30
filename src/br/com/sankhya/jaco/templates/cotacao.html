@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de Cotações</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f5f6f7; font-family:Segoe UI, Roboto, Arial, sans-serif; color:#333;">
+<div style="max-width:700px; margin:30px auto; background-color:#fff; padding:30px; border-radius:10px; box-shadow:0 4px 16px rgba(0,0,0,0.08); box-sizing:border-box;">
+
+    <!-- Cabeçalho -->
+    <div style="background:linear-gradient(90deg, #0056b3, #007bff); padding:18px 20px; border-radius:8px; margin-bottom:25px; text-align:center; color:#fff;">
+        <h2 style="margin:0; font-size:26px; font-weight:700; letter-spacing:1px;">
+            Mapa de Cotação
+        </h2>
+    </div>
+
+    <!-- Dados da Cotação -->
+    <p style="margin:15px 0; font-size:16px; text-align:center;">
+        Cotação Nº <span style="font-weight:bold; color:#0056b3;">${NUMERO_COTACAO}</span>
+    </p>
+
+
+    <!-- Mensagem Importante -->
+    <div style="background-color:#fff4e5; padding:18px 20px; border-left:6px solid #ff9800; border-radius:8px; margin:25px 0; font-size:15px; box-shadow:0 2px 6px rgba(0,0,0,0.05); display:flex; align-items:flex-start; gap:12px;">
+        <span style="font-size:22px; line-height:1; color:#ff9800;">&#9888;</span>
+        <div>
+            <p style="margin:0; font-weight:600; color:#222;">Importante: Aprovação Pendente</p>
+            <p style="margin:4px 0 0; color:#444; line-height:1.5;">
+                Em anexo está o <strong>mapa das cotações realizadas</strong>, que se encontram <strong>aguardando
+                aprovação</strong>.
+                Solicitamos que avalie as informações e realize a aprovação para prosseguir com o processo.
+            </p>
+        </div>
+    </div>
+
+    <!-- Informações Complementares -->
+    ${INFO_COMPLEMENTARES}
+
+    <!-- Observação -->
+    <p style="margin:20px 0; font-size:14px; text-align:center; color:#555;">
+        Caso já tenha efetuado a aprovação, favor desconsiderar este aviso.
+    </p>
+
+    <!-- Rodapé -->
+    <div style="margin-top:30px; padding-top:20px; border-top:1px solid #ddd; font-size:12px; color:#888; text-align:center;">
+        <p style="margin:0;">Este é um e-mail automático. Por favor, não responda.</p>
+    </div>
+</div>
+</body>
+</html>

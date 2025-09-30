@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cotação pendente de liberação</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f5f6f7; font-family:Segoe UI, Roboto, Arial, sans-serif; color:#333;">
+<div style="max-width:700px; margin:30px auto; background-color:#fff; padding:30px; border-radius:10px; box-shadow:0 4px 16px rgba(0,0,0,0.08); box-sizing:border-box;">
+
+    <h2 style="margin:0 0 10px; font-size:20px; color:#222; text-align:center;">
+        Existe uma cotação aguardando liberação
+    </h2>
+
+    <p style="margin:15px 0; font-size:16px; text-align:center;">
+        Cotação Nº <span style="font-weight:bold; color:#0056b3;">${NUMERO_COTACAO}</span>
+    </p>
+
+    <div style="background-color:#fff4e5; padding:18px 20px; border-left:6px solid #ff9800; border-radius:8px; margin:25px 0; font-size:15px; box-shadow:0 2px 6px rgba(0,0,0,0.05); display:flex; align-items:flex-start; gap:12px;">
+        <span style="font-size:22px; line-height:1; color:#ff9800;">&#9888;</span>
+        <div>
+            <p style="margin:0; font-weight:600; color:#222;">Atenção: Cotação pendente</p>
+            <p style="margin:4px 0 0; color:#444; line-height:1.5;">
+                A cotação acima encontra-se <strong>aguardando liberação</strong>.
+                É necessário que um responsável realize a aprovação para dar continuidade ao processo.
+            </p>
+        </div>
+    </div>
+
+    <!-- Informações Complementares -->
+    ${INFO_COMPLEMENTARES}
+
+    <p style="margin:20px 0; font-size:14px; text-align:center;">
+        Caso já tenha realizado a liberação, desconsidere este aviso.
+    </p>
+
+    <div style="margin-top:30px; padding-top:20px; border-top:1px solid #ddd; font-size:12px; color:#888; text-align:center;">
+        <p style="margin:0;">Este é um e-mail automático. Por favor, não responda.</p>
+    </div>
+</div>
+</body>
+</html>
