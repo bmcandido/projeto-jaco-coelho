@@ -1,4 +1,4 @@
-package br.com.sankhya.jaco.actions.events;
+package br.com.sankhya.jaco.integracao.event;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

@@ -110,5 +110,6 @@
 	<classpathentry kind="lib" path="D:/Sankhya/Outras Linguagens/Biblioteca - SKW/stream-api-0.9.7-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Sankhya/Outras Linguagens/Biblioteca - SKW/timimob-model-4.16b97.jar"/>
 	<classpathentry kind="lib" path="D:/Sankhya/Outras Linguagens/Biblioteca - SKW/wss4j-1.6.9.jar"/>
+	<classpathentry kind="lib" path="D:/Sankhya/Outras Linguagens/Biblioteca - SKW/print-service-base.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

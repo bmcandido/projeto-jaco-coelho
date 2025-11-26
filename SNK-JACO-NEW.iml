@@ -109,6 +109,7 @@
     <libelement value="jar://$MODULE_DIR$/../../Biblioteca - SKW/stream-api-0.9.7-sources.jar!/" />
     <libelement value="jar://$MODULE_DIR$/../../Biblioteca - SKW/timimob-model-4.16b97.jar!/" />
     <libelement value="jar://$MODULE_DIR$/../../Biblioteca - SKW/wss4j-1.6.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../Biblioteca - SKW/print-service-base.jar!/" />
     <src_description expected_position="1">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
     </src_description>
@@ -1088,6 +1089,15 @@
       <library name="wss4j-1.6.9.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Biblioteca - SKW/wss4j-1.6.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="print-service-base.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Biblioteca - SKW/print-service-base.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
